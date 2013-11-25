@@ -8,6 +8,13 @@
  * KMeans algorithm implemented in Templated C Class
  * So you can use this class to analize data from int to float
  *
+ *
+ * limitation :
+ * - Centroid generated is float despite your data is double. For
+ *  majority case this is enough.
+ * - It can't process non numeric data
+ * - It just for two dimension data
+ *
  * usage example
     int n = 3;
     int height = 20;
