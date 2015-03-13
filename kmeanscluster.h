@@ -10,10 +10,10 @@
  *
  *
  * limitation :
- * - Centroid generated is float despite your data is double. For
+ * - Generated centroid is float despite your data is double. For
  *  majority case this is enough.
  * - It can't process non numeric data
- * - It just for two dimension data
+ * - It is only for two dimension data
  *
  * usage example
     int n = 3;
